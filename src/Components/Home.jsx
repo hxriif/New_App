@@ -13,12 +13,11 @@ function Home() {
                 <Navbar />
             </div>
             <div className='w-screen'>
-               <HomeF/>
+                <HomeF />
             </div>
             <div className='w-screen'>
-            <HomeS/>
+                <HomeS/>
             </div>
-
         </div>
     )
 }
