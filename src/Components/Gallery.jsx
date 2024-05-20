@@ -17,13 +17,13 @@ function Gallery() {
             <img
               src={car.image}
               alt={car.model}
-              className='w-full h-48 object-cover rounded-md mb-4'
+              className='w-full h-48 object-cover rounded-full md:rounded-lg sm:rounded-2xl mb-4 border'
             />
             </div>
             <div className=' w-full flex flex-col items-center gap-2'>
             <h2 className='text-xl font-bold mb-2 text-white'>{car.make} {car.model}</h2>
             <p className='text-white'>Year: {car.year}</p>
-            <button className='bg-white text-black p-1 rounded-lg'>show more</button>
+            <button className='bg-blue-900 text-white p-1 rounded-lg'>show more</button>
             </div>
           </div>
         ))}
